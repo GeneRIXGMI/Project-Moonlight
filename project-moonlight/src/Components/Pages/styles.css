@@ -63,7 +63,7 @@
     }
   
     .homepage h1::after {
-      left: 50%;
+      left: 32%;
       transform: translateX(-50%);
     }
 

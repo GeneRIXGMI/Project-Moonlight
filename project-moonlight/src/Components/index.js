@@ -1,3 +1,11 @@
-export { default as Navbar } from "./navbar/Navbar";
-export { default as Header } from "./header/Header";
-export { default as Footer } from "./footer/Footer";
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as LHome } from "./Pages/homepage";
+export { default as Footer } from "./Footer/Footer";
+export { default as LMenu } from "./Pages/menu";
+export { default as LContact } from "./Pages/contact";
+export { default as LReservation } from "./Pages/reservation"
+export { default as LBreakfast } from "./Pages/breakfast";
+export { default as LLunch } from "./Pages/lunch";
+export { default as LDinner } from "./Pages/dinner";
+export { default as LDrinks } from "./Pages/drinks";
+export { default as LDessert } from "./Pages/dessert";

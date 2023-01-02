@@ -1,29 +1,27 @@
 import React from "react";
-import "../Button/Button.css";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar container">
-      <div className="logo">
+    <nav className="w-full flex justify-between itemse-center navbar">
+      <div className="logo"><a href="/">
         <p className="logo-text">
           <span>Moon</span>light
         </p>
+        </a>
       </div>
-      <menu>
         <ul
           className="nav-links">
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#menu">Menu</a>
+            <a href="../menu">Menu</a>
           </li>
           <li>
-            <a href="#reservation">Reservation</a>
+            <a href="../reservation">Reservation</a>
           </li>
         </ul>
-      </menu>
     </nav>
   );
 };

@@ -1,6 +1,4 @@
-export { default as Navbar } from "./Navbar/Navbar";
 export { default as LHome } from "./Pages/homepage";
-export { default as Footer } from "./Footer/Footer";
 export { default as LMenu } from "./Pages/menu";
 export { default as LContact } from "./Pages/contact";
 export { default as LReservation } from "./Pages/reservation"

@@ -1,9 +1,7 @@
 import React from "react";
 import "./App.css"
-import Navbar from "./Components/Navbar/Navbar";
-import Footer from "./Components/Footer/Footer";
 import { useState } from "react";
-import { LMenu, LReservation, LContact, LAbout, LHome } from "./Components"
+import { LMenu, LReservation, LContact, LHome } from "./Components"
 
 const App = () => {
   const [page, setPage] = useState('home');
